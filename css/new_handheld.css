@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{font-family: "微软雅黑",sans-serif;}
+a{color:#fff;
+    text-decoration: none;
+}
+nav{
+    height:50px;
+    width:100%;
+    background:rgba(255,255,255,.5);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+
+}
+.nav_center{
+    height:100%;
+    width:900px;
+    margin:0 auto;
+
+}
+.nav_center>li{
+    list-style:none;
+    display: inline-block;
+    font-size:18px;
+    width:220px;
+    text-align: center;
+    line-height:50px;
+}
